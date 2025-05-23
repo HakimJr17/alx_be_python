@@ -4,4 +4,4 @@ time = 3
 
 I = principal * rate * time
 
-print(f"The simple interest is: float({I})")
+print(f"The simple interest is: {I})")
