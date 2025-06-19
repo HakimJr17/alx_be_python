@@ -46,6 +46,7 @@ class BankAccount:
 
     def display_balance(self):
         """
-        Returns the current account balance as a floating-point number.
+        Prints the current account balance in a user-friendly format.
+        This method now directly handles printing the "Current Balance" message.
         """
-        return float(self._account_balance) # Cast to float before returning
+        print(f"Current Balance: ${float(self._account_balance)}")
