@@ -49,4 +49,4 @@ class BankAccount:
         Prints the current account balance in a user-friendly format.
         This method now directly handles printing the "Current Balance" message.
         """
-        print(f"Current Balance: ${float(self._account_balance)}")
+        print(f"Current Balance: ${float(self._account_balance):.2f}")
